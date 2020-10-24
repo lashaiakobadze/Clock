@@ -1,0 +1,77 @@
+body{ 
+    background-image: url(./Images/clock.jpg);
+    background-size: cover;
+    z-index:-1;
+    font-family: 'Cinzel', serif;
+}
+.main {
+    z-index:1;
+    align-items: center;
+    justify-content: center;
+    border: 3px black solid;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.incButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+}
+
+.length-display {
+    height:20px;
+    background-color: black;
+    border-radius: 5px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 5px;
+}
+div button 
+{
+  height:20px;
+    background-color: black;
+    border-radius: 5px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 5px;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.col {
+    display: inline-block;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#time-left {
+    font-size: 60px;
+    font-weight: bold;
+}
+.row-buttons {
+    display: inline-block;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#lasha{
+position: absolute; 
+bottom: 0;
+}
+small:hover{
+  font-size:20px;
+}
